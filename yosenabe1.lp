@@ -6,6 +6,9 @@
 % number(X, Y, N).
 % goal(A, G).
 
+% =================================================================================
+% Moving a Number
+% ---------------
 possible_move(X, Y, XX, YY) :- number(X, Y, _), area(XX, YY, _), X == XX, Y != YY.
 possible_move(X, Y, XX, YY) :- number(X, Y, _), area(XX, YY, _), X != XX, Y == YY.
 % achieved: Removed all instances in which the movement was not in a straight line
