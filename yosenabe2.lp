@@ -1,4 +1,4 @@
-% Running Program:  clingo yosenabe1.lp instances/q2/instance01.lp 0
+% Running Program:  clingo yosenabe2.lp instances/q2/instance01.lp 0
 % Grade Program:    python autograder.py --question=2
 
 % cell(X, Y).
